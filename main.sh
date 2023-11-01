@@ -51,4 +51,4 @@ cd initrd
 
 
 cd ..    
-    qume-system-x86_64 -kernel bzImage -initrd initrd.img -append "console=ttyS0" -nographic
+    qemu-system-x86_64 -kernel bzImage -initrd initrd.img -append "console=ttyS0" -nographic
